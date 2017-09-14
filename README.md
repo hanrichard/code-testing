@@ -16,7 +16,7 @@ The goal of this test is for us to get a sense of your JavaScript skill. We pref
 
 1. Read this readme
 2. Ensure you have understood the wireframes available in `/materials/wireframes`
-3. The `/code` folder is a GIT repository. Please use it and write proper GIT commit messages following the documented [Commit Message Conventions](https://gist.github.com/stephenparish/9941e89d80e2bc58a153).
+3. The `/code` folder should be a GIT repository. Please initialise a GIT repository using `git init` from within the `/code` folder. Your commit messages should follow the documented [Commit Message Conventions](https://gist.github.com/stephenparish/9941e89d80e2bc58a153).
 4. Before you begin coding, generate your own set of randomised sample data by running `yarn run setup` from the root directory. This will create a `sample-data.json` file in your `/code` directory.
 5. Design your own folder structure as you see fit within the `/code` directory
 6. Design your own components and interactions. The use of third-party plugins for this simple demo app should be kept to a minimum as the wireframes have been designed to be achievable using the chosen framework/library without any additional plugins. Feel free to use helper libraries such as `lodash` or similar.
