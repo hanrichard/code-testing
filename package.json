@@ -1,6 +1,6 @@
 {
   "name": "wdp-ui-code-test",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "WDP UI Code Test",
   "scripts": {
     "presetup": "yarn install",

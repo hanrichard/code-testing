@@ -20,7 +20,7 @@ The goal of this test is for us to get a sense of your JavaScript skill. We pref
 4. Before you begin coding, generate your own set of randomised sample data by running `yarn run setup` from the root directory. This will create a `sample-data.json` file in your `/code` directory.
 5. Design your own folder structure as you see fit within the `/code` directory
 6. Design your own components and interactions. The use of third-party plugins for this simple demo app should be kept to a minimum as the wireframes have been designed to be achievable using the chosen framework/library without any additional plugins. Feel free to use helper libraries such as `lodash` or similar.
-7. When finished, publish the GIT repository in `/code` to your personal GIT account (Github, Bitbucket or Gitlab), ensure the repository is publicly viewable and send the GIT repository URL back to us for review.
+7. When finished, publish the GIT repository in `/code` to your personal Gitlab account and mark it as *Internal* under their Project Visibility settings and send the GIT repository URL back to us for review.
 
 _*Note:* If you are unable to host your own GIT repository, please zip the entire `/code` folder and send it back to us. Make sure this includes the `.git` folder so we can review your GIT commit history for the application._
 
