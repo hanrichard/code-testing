@@ -10,6 +10,7 @@ try {
     let employees = [];
     for (let i = 0; i <= employeeCount; i++) {
         const employee = {
+            id: faker.random.uuid(),
             avatar: faker.image.avatar(),
             firstName: faker.name.firstName(),
             lastName: faker.name.lastName(),
