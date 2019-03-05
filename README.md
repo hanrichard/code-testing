@@ -28,6 +28,8 @@ _*Note:* If you are unable to host your own GIT repository, please zip the entir
 
 This simple employee roster app will use a static `sample-data.json` file with randomly generated sample data that should be used to create a simple one-page app of the roster for the company's employees.
 
+Candidates should show their reactjs development / design skills which align to industrial standard in this code test (ie. use ajax properly to retrieve data from sample-data.json)
+
 The roster should be represented in a "card" layout (see wireframe `grid-view.png`) which initially shows minimal employee information consisting of the employee's name, avatar picture and a truncated excerpt of their bio.
 
 Clicking on a card should highlight the card in some way and render additional information in a modal overlay (see wireframe `detail-view.png`). Clicking the close (X) icon above the modal should close the modal and remove the highlight from the card that was clicked. Clicking anywhere outside the modal's content should also close the modal.
