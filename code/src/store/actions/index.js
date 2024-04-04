@@ -1,0 +1,1 @@
+export { initCompanies } from './companies';
