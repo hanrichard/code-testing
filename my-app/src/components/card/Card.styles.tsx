@@ -13,7 +13,7 @@ export const Container = styled.div`
 	}
 `;
 
-export const ImageLinkContainer = styled(Link)`
+export const ImageLinkContainer = styled((props: any) => <Link {...props} />)`
 	margin-bottom: 10px;
 	display: flex;
 	text-wrap: wrap;

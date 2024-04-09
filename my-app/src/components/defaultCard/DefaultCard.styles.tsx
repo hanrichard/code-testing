@@ -1,12 +1,12 @@
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
-export const StyledLink = styled(Link)`
+export const StyledLink = styled((props: any) => <Link {...props} />)`
 	text-decoration: none;
 	color: #000000;
 `
 
-export const ImageLinkContainer = styled(Link)`
+export const ImageLinkContainer = styled((props: any) => <Link {...props} />)`
 	margin-bottom: 10px;
 	display: flex;
 	text-decoration: none;

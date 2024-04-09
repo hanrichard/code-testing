@@ -24,7 +24,7 @@ export const ContainerInner = styled.div`
 	}
 `;
 
-export const Logo = styled(Link)`
+export const Logo = styled((props: any) => <Link {...props} />)`
 	margin-right: auto;
 	color: #ffffff;
 	font-size: 38px;
@@ -36,7 +36,7 @@ export const Logo = styled(Link)`
 	}
 `;
 
-export const ButtonLink = styled(Link)`
+export const ButtonLink = styled((props: any) => <Link {...props} />)`
 	background: rgb(2,151,255);
 	background: linear-gradient(180deg, rgb(53,53,53, 1) 0%, rgba(65,65,65,1) 100%);
 	text-decoration: none;

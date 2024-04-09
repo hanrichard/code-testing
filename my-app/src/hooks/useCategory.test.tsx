@@ -39,9 +39,7 @@ describe("useCategory", () => {
 
     const { result, waitForNextUpdate } = renderHook(() => useCategory());
 
-    await act(async () => {
-      await waitForNextUpdate();
-    })
+    await waitForNextUpdate();
 
     expect(result.current.isFetching).toBe(false);
     expect(result.current.error).toBeUndefined();
@@ -53,9 +51,7 @@ describe("useCategory", () => {
 
     const { result, waitForNextUpdate } = renderHook(() => useCategory());
 
-    await act(async () => {
-      await waitForNextUpdate();
-    })
+    await waitForNextUpdate();
 
     expect(result.current.isFetching).toBe(false);
     expect(result.current.error).toBe("Network error");
@@ -67,9 +63,7 @@ describe("useCategory", () => {
 
     const { result, waitForNextUpdate } = renderHook(() => useCategory());
 
-    await act(async () => {
-      await waitForNextUpdate();
-    })
+    await waitForNextUpdate();
 
     expect(result.current.isFetching).toBe(false);
     expect(result.current.error).toBe("Network response was not ok");

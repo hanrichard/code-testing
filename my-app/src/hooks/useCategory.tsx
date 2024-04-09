@@ -25,7 +25,7 @@ export interface EntreisProps {
 };
 
 export interface AppStateProps {
-  isFetching: boolean;
+  isFetching?: boolean;
   error?: string;
   data?: DataProps;
 };

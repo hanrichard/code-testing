@@ -5,7 +5,7 @@ import { useCategory } from '../hooks/useCategory';
 export const Home = () => {
   const { isFetching, error } = useCategory();
 
-  const dispalyContent = () => {
+  const displayContent = () => {
     if (isFetching) return <p>Loading...</p>;
     if (error) return <p>Oops, something went wrong...</p>
 
@@ -22,7 +22,7 @@ export const Home = () => {
   return <>
     <HeadingSection heading="Popular Titles" />
     <Container>
-      {dispalyContent()}
+      {displayContent()}
     </Container>
   </>
 };
