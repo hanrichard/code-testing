@@ -53,4 +53,26 @@ describe("<Home />", () => {
     )
     expect(screen.getByText("Oops, something went wrong...")).toBeInTheDocument();
   });
+
+
+  it("displays data state", () => {
+
+    jest.mock("../hooks/useCategory", () => ({
+      useCategory: () => mockUseCategoryMock(),
+    }));
+
+    mockUseCategoryMock.mockReturnValue({
+      data: { total: undefined, entries: undefined },
+      isFetching: false,
+      error: null,
+    });
+    const route = '/'
+
+    render(
+      <MemoryRouter initialEntries={[route]}>
+        <Home />
+      </MemoryRouter>,
+    )
+    expect(screen.getByText("data")).toBeInTheDocument();
+  });
 })

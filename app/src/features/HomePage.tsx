@@ -10,7 +10,7 @@ export const Home = () => {
     if (isFetching) return <p>Loading...</p>;
     if (error) return <p>Oops, something went wrong...</p>
 
-    return <>test</>
+    return <>data</>
   }
 
   return <>
