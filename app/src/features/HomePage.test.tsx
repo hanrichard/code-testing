@@ -10,12 +10,6 @@ jest.mock("../hooks/useCategory", () => ({
   useCategory: () => mockUseCategoryMock(),
 }));
 
-beforeAll(() => {
-  jest.mock("react-router-dom", () => ({
-    useParams: jest.fn(),
-  }));
-})
-
 describe("<Home />", () => {
   it("displays loading state", () => {
     mockUseCategoryMock.mockReturnValue({
