@@ -27,7 +27,7 @@ describe("<Home />", () => {
     expect(screen.getByText("Loading...")).toBeInTheDocument();
   });
 
-  it("displays wrong state 2", () => {
+  it("displays wrong state", () => {
 
     jest.mock("../hooks/useCategory", () => ({
       useCategory: () => mockUseCategoryMock(),
